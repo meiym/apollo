@@ -104,7 +104,7 @@ public abstract class AbstractConfigFile implements ConfigFile, RepositoryChange
   }
 
   @Override
-  public boolean removeChangeListener(ConfigChangeListener listener) {
+  public boolean removeChangeListener(ConfigFileChangeListener listener) {
     return m_listeners.remove(listener);
   }
 
